@@ -12,7 +12,7 @@ const Hero = () => (
       My Portfolio
     </SectionTitle>
     <SectionText>
-     i am responsible for creating responsive, user-friendly interfaces that connect users with the functionality of a website or application.
+     A front-end developer responsible for creating responsive, user-friendly interfaces that connect users with the functionality of a website or application.
     </SectionText>
     <Button onClick={()=> window.location="https://google.com"}>Learn more</Button>
   </LeftSection>
