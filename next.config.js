@@ -1,9 +1,9 @@
-// /** @type {import('next').NextConfig} **/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    images: {
-      unoptimized: true, // Required for static exports with next/image
+    compiler: {
+      emotion: true, // Enable Emotion support
     },
   };
   
-  export default nextConfig;
+  module.exports = nextConfig;
